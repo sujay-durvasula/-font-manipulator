@@ -1,0 +1,32 @@
+body{
+  background-color: blue;
+  }
+  #header{
+      color: greenyellow;
+      font-size: 23px;
+  font-weight: bold;
+  width: 100%;
+  }
+  #copyright{
+    background-color:grey;
+    font-size: 23px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;  
+  }
+  canvas{
+     background-color: white;
+     border: 5px dashed red;
+  animation-name:example;
+  animation-duration:4s ;
+  animation-iteration-count:infinite ; 
+  }
+  @keyframes example{
+     from{
+         border-color: cyan;
+     } 
+     to{
+       border-color: lime;  
+     }
+  }
